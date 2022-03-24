@@ -1,5 +1,10 @@
-
+.tablero{
+  background:url(../challenge-oracle-hangman-esp-main/hoja.jpg);
+  text-align:center;
+   margin: 50px 0px
+}
 .titulo {
+  color:azure;
   padding: 15px;
   width: 30vw;
   margin: auto;
@@ -10,7 +15,7 @@
   border: 0;
   color: white;
   font-weight: bold;
-  background-color: blue;
+  background-color: mediumslateblue;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -26,6 +31,7 @@
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
 }
 
 #mensaje-error {
@@ -33,4 +39,4 @@
 	background-color: antiquewhite;
 	font-size: larger;
 }
-}
+
